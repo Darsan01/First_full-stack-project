@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/* Resetting default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling header */
+.header {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Styling logo */
+.logo img {
+  width: 100px; /* Adjust the width of the logo as needed */
+  background-color: white;
+}
+
+/* Styling main navigation */
+.main-nav {
+  list-style-type: none;
+  display: flex;
+}
+
+.main-nav li {
+  margin-right: 20px; /* Adjust spacing between navigation items */
+}
+
+.main-nav li a {
+  color: #fff; /* White text color */
+  text-decoration: none;
+  font-size: 16px; /* Adjust font size as needed */
+}
+
+.main-nav li a:hover {
+  color: #ffcc00; /* Change text color on hover */
+}

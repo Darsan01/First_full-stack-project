@@ -1,0 +1,39 @@
+#footer {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer p {
+    margin-bottom: 10px; /* Adjust spacing between text and icons */
+}
+
+#footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#footer ul li {
+    display: inline-block;
+    margin-right: 10px; /* Adjust spacing between icons */
+}
+
+#footer ul li a {
+    color: #fff; /* White icon color */
+    font-size: 20px; /* Adjust icon size */
+}
+
+#footer a {
+    color: #fff; /* White text color */
+    text-decoration: none;
+    display: block;
+    margin-top: 10px; /* Adjust spacing between icons and contact link */
+}
+
+#footer a:hover {
+    color: #ffcc00; /* Change text color on hover */
+}
